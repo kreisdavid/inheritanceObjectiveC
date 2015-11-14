@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		31B705E117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
+		CE35D2C91BF6B92300842DA9 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2C81BF6B92300842DA9 /* Shape.m */; };
+		CE35D2CC1BF6B9A500842DA9 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2CB1BF6B9A500842DA9 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,10 @@
 		31B705E817F473B800CACEA7 /* MyFirstObjectiveCProgram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstObjectiveCProgram-Info.plist"; sourceTree = "<group>"; };
 		31B705EC17F473B800CACEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31B705EE17F473B800CACEA7 /* MyFirstObjectiveCProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstObjectiveCProgram-Prefix.pch"; sourceTree = "<group>"; };
+		CE35D2C71BF6B92300842DA9 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		CE35D2C81BF6B92300842DA9 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		CE35D2CA1BF6B9A500842DA9 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		CE35D2CB1BF6B9A500842DA9 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 			children = (
 				31B705E717F473B800CACEA7 /* Supporting Files */,
 				31B705EC17F473B800CACEA7 /* main.m */,
+				CE35D2C71BF6B92300842DA9 /* Shape.h */,
+				CE35D2C81BF6B92300842DA9 /* Shape.m */,
+				CE35D2CA1BF6B9A500842DA9 /* Circle.h */,
+				CE35D2CB1BF6B9A500842DA9 /* Circle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -150,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE35D2CC1BF6B9A500842DA9 /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
+				CE35D2C91BF6B92300842DA9 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
