@@ -11,6 +11,8 @@
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		CE35D2C91BF6B92300842DA9 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2C81BF6B92300842DA9 /* Shape.m */; };
 		CE35D2CC1BF6B9A500842DA9 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2CB1BF6B9A500842DA9 /* Circle.m */; };
+		CE35D2CF1BF6BC8B00842DA9 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2CE1BF6BC8B00842DA9 /* Button.m */; };
+		CE35D2D21BF6BD5900842DA9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35D2D11BF6BD5900842DA9 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CE35D2C81BF6B92300842DA9 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		CE35D2CA1BF6B9A500842DA9 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		CE35D2CB1BF6B9A500842DA9 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		CE35D2CD1BF6BC8B00842DA9 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		CE35D2CE1BF6BC8B00842DA9 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		CE35D2D01BF6BD5900842DA9 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		CE35D2D11BF6BD5900842DA9 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				CE35D2C81BF6B92300842DA9 /* Shape.m */,
 				CE35D2CA1BF6B9A500842DA9 /* Circle.h */,
 				CE35D2CB1BF6B9A500842DA9 /* Circle.m */,
+				CE35D2CD1BF6BC8B00842DA9 /* Button.h */,
+				CE35D2CE1BF6BC8B00842DA9 /* Button.m */,
+				CE35D2D01BF6BD5900842DA9 /* Rectangle.h */,
+				CE35D2D11BF6BD5900842DA9 /* Rectangle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 				CE35D2CC1BF6B9A500842DA9 /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
 				CE35D2C91BF6B92300842DA9 /* Shape.m in Sources */,
+				CE35D2CF1BF6BC8B00842DA9 /* Button.m in Sources */,
+				CE35D2D21BF6BD5900842DA9 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
